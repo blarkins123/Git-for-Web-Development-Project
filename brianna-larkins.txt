@@ -1,0 +1,125 @@
+https://codepen.io/blarkins123/pen/oNgaPQp?editors=0100
+
+questions
+    1. What is Semantic HTML? 
+    it is the markup of the html to give it meaning.
+    2. What is HTML used for? 
+    it is used for giving the website words.
+    3. What is an attribute and where do we put it? 
+    it is a changeable property in html such as fonts and sizes
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    h1 tag is for a heading and should typically be used only once per page
+    5. Name two tags that have required attributes
+    title and style
+    6. What do we put in the head of our HTML document? 
+    title
+    7. What is an id? 
+    and identifier
+    8. What elements can I add an id to? 
+    any 
+    9. How many times can I use the same id on a page? 
+    once
+    10. What is a class? 
+    an attribute that defines the same styles for elements with the same class name.
+    11. What elements can I add a class to? 
+    any
+    12. How many times can I use the same class on a page? 
+    multiple times
+    13. How do I get my link to open in a new tab?
+    with an ancher tab
+    14. What is the alt attribute used for? 
+    to provide other information for an image if the user can for some reason not view it 
+    15. How do I reference an id?
+    with a # and the name of the id ex: #firstname
+    16. What is the difference between a section and a div
+    a section is meant to group that content together, and a div has no meaning.
+    17. What is CSS used for? 
+    the style up the html like give it color and sizing.
+    18. How to we select an element? Example - every h2 on the page
+    just but h2 and it will select all the h2's. 
+    ex:
+    h2 {
+        background: blue;
+    }
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    a class can identfy more the one element were as an id only selects one.
+    Ex: you may use an id on the header of the page or the bottom or an img to one have that one thing change
+    but to have a whole section change you would want to use a class 
+    20. How do we select classes in CSS?
+    you selcet it by using a . and the name of the class 
+    21. How do we select a p element with a single class of “human””?
+    p .human
+    22. What is a parent child selector? When would this be useful?
+ selects all elements that are a direct child of the specified element
+ should be used when you are trying to select all of the child of the element
+    23. How do you select all links within a div with the class of sidebar?
+    just add all then classes just put a space in between them
+    24. What is a pseudo selector?
+    is a selector for when you hover it vhanges the element
+    25. What do we use the change the spacing between lines?
+    <br> line-height
+    26. What do we use to change the spacing between letters?
+    letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform
+    28. How do I add a 1px border around my div that is dotted and black?
+    p .ex1 {
+        border: 1px dotted black;
+    }
+    29. How do I select everything on the page? 
+    with the universal *
+    30. How do I write a comment in CSS?
+    start with a /* and end with a */
+    31. How do I find out what file I am in, when I am using the command line? 
+    
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm to remove but once you do that it it gone forever
+    34. Why should I use version control? 
+    to many files will cuase cluter
+    35. How often should I commit to github?
+    very offten
+    36. What is the command we would use to push our repo up to github? 
+    git push origin -u "your-name-branch"
+    37. Walk me through Lambda's git flow. 
+    
+Create YOUR OWN version of Repo —> (Fork)
+
+Add your TL as a collaborator
+
+on GitHub:
+Settings -> Collaborators -> Add Collaborator (use your TL’s handle)
+(I’d suggest grabbing the invite tag and DM it to your TL on Slack at this point)
+
+Clone YOUR Repo
+
+back on your machine:
+git clone <your-repo-address>
+
+Create a branch (the one you are going to be working on)
+
+cd <repo directory>
+git checkout -b 'firstname-lastname'
+
+Push your new branch up to GitHub and make all future pushes to that branch
+
+git push -u origin firstname-lastname
+
+on GitHub:
+Compare & Pull Request -> Base: YOUR MASTER (Not the Lambda Master)
+compare fork: YOUR FORK
+
+Add your TL as a reviewer on the Pull Request
+
+On the ‘Open a Pull Request‘ page click on Reviewers. If your TL has accepted your invite, then you should be able to select them here. If not, then they haven’t accepted the invite, and come back later…
+
+Your TL will merge the work into YOUR Master fork when they have reviewed and approved it.- [ ] Create your own version of this repo - Fork - [ ] Add your TL as a collaborator - [ ] Clone this repo - [ ] Create a branch git checkout -b 'firstName-lastName' - [ ] Add your name to the list of names below. - [ ] Run your usual git commands or adding/committing and pushing Be sure to push to your branch - [ ] Create a Pull-Request to submit your work - [ ] Use your own student fork as the base (compare across forks, base-fork -> master). - [ ] Add your TL as a reviewer on the Pull-Request - [ ] TL then will count the Assignment as done by merging the HW back into master “STUDENT FORK”.
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the fix for the box model? 
